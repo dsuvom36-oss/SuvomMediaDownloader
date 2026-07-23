@@ -1,0 +1,124 @@
+{
+  "theme": {
+    "name": "Dark",
+    "version": "2.0"
+  },
+
+  "window": {
+    "background": "#181818",
+    "foreground": "#FFFFFF"
+  },
+
+  "sidebar": {
+    "background": "#1E1E1E",
+    "foreground": "#FFFFFF",
+    "hover": "#2A2A2A",
+    "selected": "#3B82F6",
+    "selected_text": "#FFFFFF",
+    "border": "#303030"
+  },
+
+  "topbar": {
+    "background": "#202020",
+    "foreground": "#FFFFFF",
+    "border": "#2D2D2D"
+  },
+
+  "statusbar": {
+    "background": "#202020",
+    "foreground": "#FFFFFF",
+    "border": "#2D2D2D"
+  },
+
+  "page": {
+    "background": "#181818",
+    "foreground": "#FFFFFF"
+  },
+
+  "card": {
+    "background": "#242424",
+    "foreground": "#FFFFFF",
+    "border": "#303030",
+    "hover": "#2C2C2C"
+  },
+
+  "button": {
+    "primary": "#3B82F6",
+    "primary_hover": "#2563EB",
+    "secondary": "#3A3A3A",
+    "secondary_hover": "#4A4A4A",
+    "success": "#22C55E",
+    "warning": "#F59E0B",
+    "danger": "#EF4444",
+    "text": "#FFFFFF"
+  },
+
+  "entry": {
+    "background": "#2A2A2A",
+    "foreground": "#FFFFFF",
+    "placeholder": "#A0A0A0",
+    "border": "#3A3A3A"
+  },
+
+  "label": {
+    "primary": "#FFFFFF",
+    "secondary": "#CFCFCF",
+    "disabled": "#7A7A7A"
+  },
+
+  "progressbar": {
+    "background": "#303030",
+    "progress": "#3B82F6"
+  },
+
+  "download": {
+    "running": "#3B82F6",
+    "completed": "#22C55E",
+    "failed": "#EF4444",
+    "paused": "#F59E0B",
+    "queued": "#9CA3AF"
+  },
+
+  "notification": {
+    "info": "#3B82F6",
+    "success": "#22C55E",
+    "warning": "#F59E0B",
+    "error": "#EF4444"
+  },
+
+  "history": {
+    "completed": "#22C55E",
+    "failed": "#EF4444",
+    "cancelled": "#F59E0B"
+  },
+
+  "activity": {
+    "download": "#3B82F6",
+    "system": "#A855F7",
+    "history": "#22C55E",
+    "notification": "#F59E0B"
+  },
+
+  "scrollbar": {
+    "button": "#505050",
+    "button_hover": "#707070"
+  },
+
+  "separator": {
+    "color": "#303030"
+  },
+
+  "font": {
+    "family": "Segoe UI",
+    "size_small": 11,
+    "size_normal": 13,
+    "size_large": 16,
+    "size_title": 22
+  },
+
+  "radius": {
+    "small": 6,
+    "normal": 10,
+    "large": 15
+  }
+}

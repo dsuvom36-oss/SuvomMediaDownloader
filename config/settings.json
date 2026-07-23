@@ -1,0 +1,84 @@
+{
+    "appearance": {
+        "theme": "dark",
+        "color_mode": "system",
+        "font_family": "Segoe UI",
+        "font_size": 13,
+        "language": "en"
+    },
+    "window": {
+        "width": 1400,
+        "height": 850,
+        "maximized": false,
+        "remember_size": true,
+        "remember_position": true
+    },
+    "downloads": {
+        "default_folder": "downloads",
+        "ask_before_download": false,
+        "overwrite_existing": false,
+        "max_simultaneous_downloads": 3,
+        "retry_failed_downloads": true,
+        "retry_attempts": 3,
+        "auto_start_queue": true,
+        "create_playlist_folder": true
+    },
+    "history": {
+        "save_history": true,
+        "auto_clear": false,
+        "days_to_keep": 365
+    },
+    "notifications": {
+        "enabled": true,
+        "desktop": true,
+        "sound": true,
+        "task_completed": true,
+        "task_failed": true,
+        "application_updates": true
+    },
+    "search": {
+        "safe_search": true,
+        "max_results": 20,
+        "remember_last_search": true
+    },
+    "performance": {
+        "worker_threads": 4,
+        "enable_cache": true,
+        "cache_size_mb": 512,
+        "thumbnail_cache": true
+    },
+    "network": {
+        "timeout": 30,
+        "proxy_enabled": false,
+        "proxy_url": "",
+        "verify_ssl": true
+    },
+    "logging": {
+        "enabled": true,
+        "level": "INFO"
+    },
+    "updates": {
+        "auto_check": true,
+        "channel": "stable"
+    },
+    "privacy": {
+        "send_anonymous_statistics": false,
+        "check_online_updates": true
+    },
+    "developer": {
+        "debug_mode": false,
+        "show_console": false,
+        "log_events": true
+    },
+    "theme": "Dark",
+    "download_folder": "downloads",
+    "max_workers": 3,
+    "refresh_interval": 500,
+    "show_notifications": true,
+    "auto_save_history": true,
+    "auto_start_queue": true,
+    "language": "English",
+    "check_updates": true,
+    "minimize_to_tray": false,
+    "start_maximized": false
+}

@@ -1,0 +1,45 @@
+{
+    "application": {
+        "name": "Suvom Media Downloader",
+        "current_version": "2.0.0",
+        "latest_version": "2.0.0",
+        "channel": "stable"
+    },
+
+    "release": {
+        "release_date": "2026-07-22",
+        "release_notes": [
+            "Initial stable release.",
+            "Modern CustomTkinter interface.",
+            "Event-driven architecture.",
+            "Plugin framework.",
+            "Theme system.",
+            "Notification system.",
+            "History management.",
+            "Performance improvements.",
+            "Bug fixes."
+        ]
+    },
+
+    "download": {
+        "url": "",
+        "file_name": "",
+        "sha256": "",
+        "size": 0
+    },
+
+    "requirements": {
+        "minimum_python": "3.12",
+        "minimum_os": "Windows 10"
+    },
+
+    "installer": {
+        "type": "zip",
+        "restart_required": true
+    },
+
+    "support": {
+        "website": "https://suvomprojectlimited.com",
+        "email": "suvomproject@gmail.com"
+    }
+}

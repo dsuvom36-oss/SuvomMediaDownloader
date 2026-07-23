@@ -1,0 +1,96 @@
+{
+  "application": {
+    "name": "Suvom Media Downloader",
+    "version": "2.0.0",
+    "author": "Suvom Project Limited",
+    "company": "Suvom Project Limited",
+    "website": "https://suvomprojectlimited.com",
+    "email": "suvomproject@gmail.com",
+    "license": "MIT",
+    "debug": false
+  },
+
+  "window": {
+    "title": "Suvom Media Downloader",
+    "width": 1400,
+    "height": 850,
+    "min_width": 1200,
+    "min_height": 700,
+    "resizable": true,
+    "fullscreen": false,
+    "appearance": "system"
+  },
+
+  "theme": {
+    "current": "dark",
+    "themes_directory": "assets/themes",
+    "default_theme": "dark"
+  },
+
+  "downloads": {
+    "directory": "downloads",
+    "create_subfolders": true,
+    "overwrite_existing": false,
+    "max_concurrent_downloads": 3,
+    "retry_count": 3,
+    "retry_delay": 5,
+    "auto_resume": true
+  },
+
+  "network": {
+    "timeout": 30,
+    "chunk_size": 8192,
+    "user_agent": "SuvomMediaDownloader/2.0",
+    "proxy": "",
+    "verify_ssl": true
+  },
+
+  "history": {
+    "enabled": true,
+    "max_records": 10000,
+    "database": "config/history.db",
+    "auto_save": true
+  },
+
+  "notifications": {
+    "enabled": true,
+    "sound": true,
+    "desktop": true,
+    "show_success": true,
+    "show_failed": true
+  },
+
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "directory": "logs",
+    "filename": "application.log",
+    "max_size_mb": 10,
+    "backup_count": 5
+  },
+
+  "cache": {
+    "enabled": true,
+    "thumbnail_directory": "temp/thumbnails",
+    "temp_directory": "temp",
+    "max_cache_size_mb": 500,
+    "clear_on_exit": false
+  },
+
+  "updates": {
+    "auto_check": true,
+    "check_interval_days": 7,
+    "current_channel": "stable"
+  },
+
+  "performance": {
+    "worker_threads": 4,
+    "enable_gpu": false,
+    "lazy_loading": true
+  },
+
+  "security": {
+    "save_credentials": false,
+    "encrypt_settings": false
+  }
+}
