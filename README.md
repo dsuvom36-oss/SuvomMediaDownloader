@@ -43,7 +43,7 @@ tests/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SuvomMediaDownloader.git
+git clone https://github.com/dsuvom36-oss/SuvomMediaDownloader.git
 
 cd SuvomMediaDownloader
 
